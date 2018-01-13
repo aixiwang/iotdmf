@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+.clearBg{
+background:transparent;
+}
+.tp{
+background:transparent;
+}
+.SteelBlue{
+background-color:#397893;
+}
+.MediumAquamarine{
+background-color:#58B8A7;
+}
+.DimGrey{
+background-color: #666666;
+}
+.DarkGr3y{
+background-color: #999999;
+}
+.YellowGreen{
+background-color:#89c234;
+}
+.SandyBrown{
+background-color:#ffc54a;
+}
+.FireBrick{
+background-color:#bb1e22;
+}
+.LightBlue{
+background-color:#b1cdd6;
+}
+.White{
+background-color:#FFFFFF;
+}
+.Black{
+background-color:#000000;
+}
+.radius_5{
+border-radius: 5px;
+}
+.bg_level1{
+background-color:#89c234;
+}
+.bg_level2{
+background-color:#ffc54a;
+}
+.bg_level3{
+background-color:#bb1e22;
+}
+/*end*/

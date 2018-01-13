@@ -1,0 +1,98 @@
+----------------------------- PS -------------------
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        92  5.7  1.6   8000  4088 ?        Ss   14:10  22:40 /lib/systemd/systemd-journald
+root       359  1.1  2.4  12000  6008 ?        S    14:10   4:39 python iotc.py
+root        37  0.4  0.0      0     0 ?        S    14:10   1:49 [kswapd0]
+root        24  0.1  0.0      0     0 ?        S    14:10   0:43 [kworker/0:1]
+root       352  0.1  2.5  12208  6288 ?        S    14:10   0:25 python iotc.py
+root       367  0.1  3.0  12608  7480 ?        S    14:10   0:46 python iotc.py
+root       477  0.1  1.7  56408  4244 ?        S    14:10   0:39 python /pyagent/filesystem/mods/redirector/redirector.py
+root       485  0.1  1.6  27736  4048 ?        Sl   14:10   0:40 python /pyagent/filesystem/mods/redirector2/redirector.py
+root         1  0.0  0.6   5084  1628 ?        Ss   14:10   0:08 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:10   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:10   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/0:0]
+root         5  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/u:0]
+root         6  0.0  0.0      0     0 ?        S    14:10   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    14:10   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    14:10   0:00 [migration/1]
+root         9  0.0  0.0      0     0 ?        S    14:10   0:05 [kworker/1:0]
+root        10  0.0  0.0      0     0 ?        S    14:10   0:00 [ksoftirqd/1]
+root        11  0.0  0.0      0     0 ?        S    14:10   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    14:10   0:00 [migration/2]
+root        14  0.0  0.0      0     0 ?        S    14:10   0:00 [ksoftirqd/2]
+root        15  0.0  0.0      0     0 ?        S    14:10   0:00 [watchdog/2]
+root        16  0.0  0.0      0     0 ?        S    14:10   0:00 [migration/3]
+root        17  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/3:0]
+root        18  0.0  0.0      0     0 ?        S    14:10   0:00 [ksoftirqd/3]
+root        19  0.0  0.0      0     0 ?        S    14:10   0:00 [watchdog/3]
+root        20  0.0  0.0      0     0 ?        S<   14:10   0:00 [cpuset]
+root        21  0.0  0.0      0     0 ?        S<   14:10   0:00 [khelper]
+root        22  0.0  0.0      0     0 ?        S    14:10   0:00 [kdevtmpfs]
+root        23  0.0  0.0      0     0 ?        S<   14:10   0:00 [netns]
+root        25  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/1:1]
+root        26  0.0  0.0      0     0 ?        S    14:10   0:15 [kworker/2:1]
+root        27  0.0  0.0      0     0 ?        S    14:10   0:08 [kworker/3:1]
+root        28  0.0  0.0      0     0 ?        S    14:10   0:00 [sync_supers]
+root        29  0.0  0.0      0     0 ?        S    14:10   0:00 [bdi-default]
+root        30  0.0  0.0      0     0 ?        S<   14:10   0:00 [kblockd]
+root        31  0.0  0.0      0     0 ?        S    14:10   0:00 [sytem]
+root        32  0.0  0.0      0     0 ?        S    14:10   0:00 [khubd]
+root        33  0.0  0.0      0     0 ?        D    14:10   0:05 [usb-hardware-sc]
+root        34  0.0  0.0      0     0 ?        S    14:10   0:11 [cfinteractive]
+root        35  0.0  0.0      0     0 ?        S<   14:10   0:00 [rpciod]
+root        36  0.0  0.0      0     0 ?        S    14:10   0:00 [khungtaskd]
+root        38  0.0  0.0      0     0 ?        S    14:10   0:00 [fsnotify_mark]
+root        39  0.0  0.0      0     0 ?        S<   14:10   0:00 [nfsiod]
+root        40  0.0  0.0      0     0 ?        S<   14:10   0:00 [cifsiod]
+root        41  0.0  0.0      0     0 ?        S<   14:10   0:00 [crypto]
+root        56  0.0  0.0      0     0 ?        S<   14:10   0:00 [SunxiDisCommit]
+root        57  0.0  0.0      0     0 ?        S    14:10   0:00 [kapmd]
+root        58  0.0  0.0      0     0 ?        S<   14:10   0:00 [spi.0]
+root        59  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/u:1]
+root        66  0.0  0.0      0     0 ?        S<   14:10   0:00 [f_mtp]
+root        67  0.0  0.0      0     0 ?        S    14:10   0:00 [file-storage]
+root        70  0.0  0.0      0     0 ?        S    14:10   0:00 [kworker/2:2]
+root        71  0.0  0.0      0     0 ?        S    14:10   0:10 [mmcqd/0]
+root        72  0.0  0.0      0     0 ?        S<   14:10   0:00 [krfcommd]
+root        73  0.0  0.0      0     0 ?        S<   14:10   0:00 [deferwq]
+root        74  0.0  0.0      0     0 ?        S<   14:10   0:00 [thermal_wq]
+root        75  0.0  0.0      0     0 ?        S<   14:10   0:00 [devfreq_wq]
+root        76  0.0  0.0      0     0 ?        S    14:10   0:02 [jbd2/mmcblk0p2-]
+root        77  0.0  0.0      0     0 ?        S<   14:10   0:00 [ext4-dio-unwrit]
+root        98  0.0  0.0      0     0 ?        S    14:10   0:00 [kauditd]
+root       105  0.0  0.1  10488   472 ?        Ss   14:10   0:00 /lib/systemd/systemd-udevd
+root       148  0.0  0.0      0     0 ?        S    14:10   0:00 [flush-179:0]
+systemd+   190  0.0  0.1  12220   372 ?        Ssl  14:10   0:00 /lib/systemd/systemd-timesyncd
+message+   271  0.0  0.2   4956   624 ?        Ss   14:10   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       274  0.0  0.1   2920   496 ?        Ss   14:10   0:00 /lib/systemd/systemd-logind
+root       283  0.0  0.2   8248   528 ?        Ss   14:10   0:00 /usr/sbin/sshd -D
+memcache   284  0.0  0.1  47972   440 ?        Ssl  14:10   0:02 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1
+root       292  0.0  0.0   1428    52 ?        S    14:10   0:00 /bin/sh /root/iotdmf/start.sh
+root       293  0.0  0.0   1428    68 ?        S    14:10   0:00 /bin/sh /pyagent/start.sh
+root       294  0.0  0.8   6680  2184 ?        S    14:10   0:01 python ./autocfg.py
+root       297  0.0  5.4  28988 13592 ?        Sl   14:10   0:20 python api-tornado.py
+root       308  0.0  0.0   1972   120 tty2     Ss+  14:10   0:00 /sbin/agetty --noclear tty2 linux
+root       311  0.0  0.0   1792   116 ttyS0    Ss+  14:10   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root       391  0.0  1.9   7660  4852 ?        Ss   14:10   0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       468  0.0  2.2  65708  5480 ?        Sl   14:10   0:22 python ./core/main.py
+root       475  0.0  0.0   1428    52 ?        S    14:10   0:00 /bin/sh -c python /pyagent/filesystem/mods/redirector/redirector.py 
+root       483  0.0  0.0   1428    52 ?        S    14:10   0:00 /bin/sh -c python /pyagent/filesystem/mods/redirector2/redirector.py 
+root       560  0.0  0.3  11912   944 ?        Ss   14:10   0:01 sshd: root@pts/0    
+root       590  0.0  0.3   2800   928 pts/0    Ss   14:10   0:00 -bash
+root      1507  0.0  0.8   5772  2112 pts/0    S+   14:17   0:00 ssh test@192.168.2.105
+root      1693  0.0  0.0   1428   248 ?        S    20:43   0:00 sh -c ps aux --sort=-%cpu >> sysinfo.txt
+root      1694  0.0  0.3   2532   840 ?        R    20:43   0:00 ps aux --sort=-%cpu
+------------------------------ DF -------------------
+Filesystem     1K-blocks   Used Available Use% Mounted on
+/dev/root        3689632 868488   2821144  24% /
+devtmpfs           42004      0     42004   0% /dev
+tmpfs             124084      0    124084   0% /dev/shm
+tmpfs             124084  16724    107360  14% /run
+tmpfs               5120      4      5116   1% /run/lock
+tmpfs             124084      0    124084   0% /sys/fs/cgroup
+------------------------------ FREE ------------------
+             total       used       free     shared    buffers     cached
+Mem:        248172     127272     120900      16732      16800      30920
+-/+ buffers/cache:      79552     168620
+Swap:            0          0          0

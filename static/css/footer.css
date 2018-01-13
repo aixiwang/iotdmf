@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+/*　.=globalFooter
+---------------------------------------------------------------------- */
+.globalFooterArea{
+position:absolute;
+background-color:#7B7B7B;
+margin:0px auto 0px auto;
+width :100%;
+bottom:-40px;
+border-top:8px solid #F9BE00;
+}
+.globalFooter {
+position:relative;
+display: block;
+margin:0px auto 0px auto;
+width :1024px;
+height :40px;
+bottom:-0px;
+background:url("../images/espdragon_logo.png") center no-repeat;
+}
+.globalFooterArea img {
+position:relative;
+display: block;
+margin:auto auto auto auto;
+}
+.globalFooter p#footerText{
+clear:both;
+padding-top:14px;
+width:100%;
+font-size:75%;
+text-align:center;
+}
+/*end*/

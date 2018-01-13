@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/***　.=forecast
+---------------------------------------------------------------------- */
+.weatherArea{
+display:inline-block;
+padding:0 6px;
+}
+.weatherArea,
+.weatherArea li{
+float:left;
+}
+.weatherArea h1{
+margin-bottom:6px;
+padding:0 0 0 24px;
+height:18px;
+line-height:18px;
+font-size:12px;
+font-weight:normal;
+background:url("../images/forecast_h1.png") no-repeat left center;
+}
+.weatherArea li dt,
+.weatherArea li dd{
+width:50px;
+text-align:center;
+}
+.weatherArea li:first-of-type dt{
+width:52px;
+color:#fff;
+border-radius:5px 5px 0 0;
+-webkit-border-radius:5px 5px 0 0;
+-moz-border-radius:5px 5px 0 0;
+-o-border-radius:5px 5px 0 0;
+-ms-border-radius:5px 5px 0 0;
+background-color:#09c;
+}
+.weatherArea li dd{
+width:50px;
+}
+.weatherArea li dd:first-of-type{
+font-weight:bold;
+background-color:#dcf2f5;
+}
+.weatherArea li dt,
+.weatherArea li dd:first-of-type,
+.weatherArea li dd figcaption{
+height:18px;
+line-height:18px;
+}
+.weatherArea li dt,
+.weatherArea li dd:first-of-type{
+font-size:12px;
+}
+.weatherArea li dd{
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+.weatherArea li dd:first-of-type{
+border-top:1px solid #ccc;
+}
+.weatherArea li:first-of-type dd{
+border-left:1px solid #ccc;
+}
+.weatherArea li dd:first-of-type span:after{
+content:"℃";
+}
+.lt-ie8 .weatherArea li dd:first-of-type span:after{
+content:"";
+}
+.lt-ie8 .weatherArea li dd:first-of-type span{
+padding-right:12px;/* IE8 and older */ 
+background:url("../images/forecast_temperature.gif") no-repeat right center;/* IE8 and older */ 
+}
+
+.weatherArea li dd img{
+margin:2px 0;
+width:40px;
+height:45px;
+}
+.weatherArea li dd figcaption{
+font-size:11px;
+color:#fff;
+background-color:#ccc;
+}
+.weatherArea li dd .label01 figcaption	{background-color:#9bc5dd;}
+.weatherArea li dd .label02 figcaption	{background-color:#fc0;}
+.weatherArea li dd .label03 figcaption	{background-color:#fbb484;}
+.weatherArea li dd .label04 figcaption,
+.weatherArea li dd .label05 figcaption	{background-color:#ef89a3;}
+/*end*/

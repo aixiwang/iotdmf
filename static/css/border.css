@@ -1,0 +1,167 @@
+@charset "utf-8";
+.clearBorder{
+border:0;
+}
+.b_b_1_DarkGrey{
+border-bottom:solid 1px #999999;
+}
+.b_b_2_DarkGrey{
+border-bottom:solid 2px #999999;
+}
+.b_b_3_DarkGrey{
+border-bottom:solid 3px #999999;
+}
+.b_b_4_DarkGrey{
+border-bottom:solid 4px #999999;
+}
+.b_b_5_DarkGrey{
+border-bottom:solid 5px #999999;
+}
+.b_b_6_DarkGrey{
+border-bottom:solid 6px #999999;
+}
+.b_b_7_DarkGrey{
+border-bottom:solid 7px #999999;
+}
+.b_b_8_DarkGrey{
+border-bottom:solid 8px #999999;
+}
+.b_b_9_DarkGrey{
+border-bottom:solid 9px #999999;
+}
+.b_b_10_DarkGrey{
+border-bottom:solid 10px #999999;
+}
+.b_b_1_LightGrey{
+border-bottom:solid 1px #cccccc;
+}
+.b_b_2_LightGrey{
+border-bottom:solid 2px #cccccc;
+}
+.b_b_3_LightGrey{
+border-bottom:solid 3px #cccccc;
+}
+.b_b_4_LightGrey{
+border-bottom:solid 4px #cccccc;
+}
+.b_b_5_LightGrey{
+border-bottom:solid 5px #cccccc;
+}
+.b_b_6_LightGrey{
+border-bottom:solid 6px #cccccc;
+}
+.b_b_7_LightGrey{
+border-bottom:solid 7px #cccccc;
+}
+.b_b_8_LightGrey{
+border-bottom:solid 8px #cccccc;
+}
+.b_b_9_LightGrey{
+border-bottom:solid 9px #cccccc;
+}
+.b_b_10_LightGrey{
+border-bottom:solid 10px #cccccc;
+}
+.b_1_DarkGrey{
+border:solid 1px #999;
+}
+.b_2_DarkGrey{
+border:solid 2px #999;
+}
+.b_3_DarkGrey{
+border:solid 3px #999;
+}
+.b_4_DarkGrey{
+border:solid 4px #999;
+}
+.b_5_DarkGrey{
+border:solid 5px #999;
+}
+.b_t_1_LightBlue{
+border-top:solid 1px #cccccc;
+}
+.b_t_2_LightBlue{
+border-top:solid 2px #cccccc;
+}
+.b_t_3_LightBlue{
+border-top:solid 3px #cccccc;
+}
+.b_t_4_LightBlue{
+border-top:solid 4px #cccccc;
+}
+.b_t_5_LightBlue{
+border-top:solid 5px #cccccc;
+}
+.b_t_6_LightBlue{
+border-top:solid 6px #cccccc;
+}
+.b_t_7_LightBlue{
+border-top:solid 7px #cccccc;
+}
+.b_t_8_LightBlue{
+border-top:solid 8px #cccccc;
+}
+.b_t_9_LightBlue{
+border-top:solid 9px #cccccc;
+}
+.b_t_10_LightBlue{
+border-top:solid 10px #cccccc;
+}
+.b_b_1_LightBlue{
+border-bottom:solid 1px #cccccc;
+}
+.b_b_2_LightBlue{
+border-bottom:solid 2px #cccccc;
+}
+.b_b_3_LightBlue{
+border-bottom:solid 3px #cccccc;
+}
+.b_b_4_LightBlue{
+border-bottom:solid 4px #cccccc;
+}
+.b_b_5_LightBlue{
+border-bottom:solid 5px #cccccc;
+}
+.b_b_6_LightBlue{
+border-bottom:solid 6px #cccccc;
+}
+.b_b_7_LightBlue{
+border-bottom:solid 7px #cccccc;
+}
+.b_b_8_LightBlue{
+border-bottom:solid 8px #cccccc;
+}
+.b_b_9_LightBlue{
+border-bottom:solid 9px #cccccc;
+}
+.b_b_10_LightBlue{
+border-bottom:solid 10px #cccccc;
+}
+.b_b_2_Red{
+border-bottom:solid 2px red;
+}
+.b_b_3_Red{
+border-bottom:solid 3px red;
+}
+.b_b_4_Red{
+border-bottom:solid 4px red;
+}
+.b_b_2_Black{
+border-bottom:solid 2px black;
+}
+.b_b_3_Black{
+border-bottom:solid 3px black;
+}
+.b_b_4_Black{
+border-bottom:solid 4px black;
+}
+.b_1_White{
+border:solid 1px #FFF;
+}
+.b_2_White{
+border:solid 2px #FFF;
+}
+.b_3_White{
+border:solid 3px #FFF;
+}
+/*end*/

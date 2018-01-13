@@ -1,0 +1,129 @@
+var KEY_TAB = 9;
+var KEY_BACK = 8;
+var KEY_ENTER = 13;
+
+var TAB_REPLACE = "    ";
+
+// TODO A good method for detecting attempts to set beyond the selection end or before the beginning of the text
+var moveSelectionStart = function(elem, start) {
+    var moved; // how many chars actually moved
+    if (elem.selectionStart !== undefined) { // Firefox
+        if (elem.selectionStart + start < 0) { // if attempts to set before beginning of text
+            moved = -elem.selectionStart;
+            elem.selectionStart = 0;
+        } else {
+            moved = start;
+            elem.selectionStart = elem.selectionStart + start;
+        }
+        //alert(elem.selectionStart);
+    } else {
+        var range = document.selection.createRange();
+        var beginRange = range.duplicate();
+        beginRange.moveToElementText(elem);
+        beginRange.setEndPoint("EndToStart", range);
+        if (beginRange.text.length < -start) { // if attempts to set befire beginning of text
+            moved = -beginRange.text.length;
+        } else {
+            moved = start;
+        }
+        range.moveStart("character", moved);
+        range.select();
+    }
+    return moved;
+};
+
+var getSelection = function(elem) {
+    if (elem.selectionStart !== undefined && elem.selectionEnd !== undefined) { // stupid implicit type-casting
+        return elem.value.substring(elem.selectionStart,
+                                       elem.selectionEnd);
+    } else {
+        return document.selection.createRange().text;
+    }
+};
+
+var replaceSelection = function(elem, text, cursorAtStart) {
+    if (elem.selectionStart !== undefined && elem.selectionEnd !== undefined) { // Firefox
+        var start = elem.selectionStart;
+        var end = elem.selectionEnd;
+        var len = elem.value.length;
+
+        elem.value = elem.value.substring(0, start) + 
+            text + 
+            elem.value.substring(end, len);
+        elem.selectionStart = start + text.length;
+        elem.selectionEnd = start + text.length;
+    } else { // everything else
+        var range = document.selection.createRange();
+        range.text = text;
+        range.collapse();
+        range.select();
+    }
+};
+
+var stopDefault = function(e) {
+    if (e.preventDefault) { // W3C method
+        e.preventDefault();
+    } else { // internet exploder
+        e.returnValue = false;
+    }
+};
+
+// move selection start to the beginning of the line
+var selectLine = function(elem) {
+    var c = "";
+    var moved = 0;
+    // Internet Exploder uses vertical tab for some reason
+    while ((c !== "\n" && c !== "\x0D") && moveSelectionStart(elem, -1) === -1) {
+        c = getSelection(elem).charAt(0);
+        moved -= 1;
+    }
+    if (c === "\n" || c === "\x0D") {
+        moveSelectionStart(elem, 1);
+        moved += 1;
+    }
+    return moved;
+};
+
+var onKeyDownCallback = function(editor, e) {
+    var moved;
+    if (e.keyCode === KEY_TAB) { // insert soft-tab
+        stopDefault(e);
+        replaceSelection(editor, TAB_REPLACE, false);
+    } else if (e.keyCode === KEY_BACK && 
+               getSelection(editor) === "") {
+        // proceed if only nothing is selected
+        moved = moveSelectionStart(editor, -TAB_REPLACE.length);
+        var sel = getSelection(editor);
+        if (sel === TAB_REPLACE) {
+            // if there is a soft-tab, then erase it with one keystroke
+            stopDefault(e);
+            replaceSelection(editor, "");
+        } else {
+            moveSelectionStart(editor, -moved);
+        }
+    } else if (e.keyCode === KEY_ENTER) { // autoindent
+        moved = selectLine(editor);
+        var spaces = getSelection(editor).match(/(\s*)/)[0];
+        moveSelectionStart(editor, -moved);
+        setTimeout(function() {
+            replaceSelection(editor, spaces);
+        }, 0);
+    }
+};
+
+var addEventCallback = (window.addEventListener) ?
+    function(elem, name, callback) { // W3C Events
+        elem.addEventListener(name, callback, false);
+    } :
+    function(elem, name, callback) { // Internet Exploder
+        elem.attachEvent("on" + name, function() {
+            callback(window.event);
+        });
+    };
+
+addEventCallback(window, "load", function(e) {
+    var editor = document.getElementById("editor");
+    addEventCallback(editor, "keydown", function(e) {
+        onKeyDownCallback(editor, e);
+    });
+});

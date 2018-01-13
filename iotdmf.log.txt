@@ -1,0 +1,154 @@
+2017-01-06 21:55:49->iotdmf started
+2017-01-06 21:55:50->start iotc ok, pid:14407
+2017-01-06 21:59:07->iotdmf started
+2017-01-06 21:59:08->start iotc ok, pid:14407
+2017-01-06 22:04:56->iotdmf started
+2017-01-06 22:04:57->start iotc ok, pid:14407
+2017-01-06 22:12:06->iotdmf started
+2017-01-06 22:12:07->start iotc ok, pid:14407
+2017-01-06 22:09:11->iotdmf started
+2017-01-06 22:09:13->start iotc ok, pid:14407
+2017-01-06 22:29:31->iotdmf started
+2017-01-06 22:29:32->start iotc ok, pid:14407
+2017-01-07 06:01:32->iotdmf started
+2017-01-07 06:01:33->start iotc ok, pid:14407
+2017-01-07 07:20:02->iotdmf started
+2017-01-07 07:20:03->start iotc ok, pid:14407
+2017-01-07 08:06:08->iotdmf started
+2017-01-07 08:06:09->start iotc ok, pid:14407
+2017-01-07 08:47:06->iotdmf started
+2017-01-07 08:47:07->start iotc ok, pid:14407
+2017-01-07 08:54:33->iotdmf started
+2017-01-07 08:54:34->start iotc ok, pid:14407
+2017-01-07 09:06:47->iotdmf started
+2017-01-07 09:06:48->start iotc ok, pid:14407
+2017-01-07 09:16:02->iotdmf started
+2017-01-07 09:16:03->start iotc ok, pid:14407
+2017-01-07 09:25:55->iotdmf started
+2017-01-07 09:25:56->start iotc ok, pid:14407
+2017-01-07 09:31:22->iotdmf started
+2017-01-07 09:31:23->start iotc ok, pid:14407
+2017-01-07 09:52:32->iotdmf started
+2017-01-07 09:52:33->start iotc ok, pid:14407
+2017-01-07 09:55:06->iotdmf started
+2017-01-07 09:55:07->start iotc ok, pid:14407
+2017-01-07 21:38:55->iotdmf started
+2017-01-07 21:38:56->start iotc ok, pid:310
+2017-01-08 09:49:51->iotdmf started
+2017-01-08 09:49:52->start iotc ok, pid:353
+2017-01-08 10:13:10->iotdmf started
+2017-01-08 10:13:11->start iotc ok, pid:336
+2017-01-08 10:16:37->iotdmf started
+2017-01-08 10:16:38->start iotc ok, pid:330
+2017-01-08 10:35:23->iotdmf started
+2017-01-08 10:35:24->start iotc ok, pid:318
+2017-01-08 13:19:46->iotdmf started
+2017-01-08 13:19:47->start iotc ok, pid:367
+2017-01-08 13:40:28->iotdmf started
+2017-01-08 13:40:29->start iotc ok, pid:350
+2017-01-08 13:52:36->iotdmf started
+2017-01-08 13:52:37->start iotc ok, pid:341
+2017-01-08 13:52:37->iotdmf started
+2017-01-08 13:52:38->start iotc ok, pid:353
+2017-01-08 14:00:17->iotdmf started
+2017-01-08 14:00:18->start iotc ok, pid:348
+2017-01-08 14:03:13->iotdmf started
+2017-01-08 14:03:14->start iotc ok, pid:297
+2017-01-08 17:32:25->iotdmf started
+2017-01-08 17:32:26->start iotc ok, pid:365
+2017-01-08 18:56:18->iotdmf started
+2017-01-08 18:56:19->start iotc ok, pid:334
+2017-01-09 00:27:54->iotdmf started
+2017-01-09 00:27:55->start iotc ok, pid:358
+2017-01-09 10:19:23->iotdmf started
+2017-01-09 10:19:24->start iotc ok, pid:333
+2017-01-09 13:33:53->iotdmf started
+2017-01-09 13:33:54->start iotc ok, pid:323
+2017-01-09 14:30:51->iotdmf started
+2017-01-09 14:30:52->start iotc ok, pid:335
+2017-01-09 14:46:30->iotdmf started
+2017-01-09 14:46:31->start iotc ok, pid:363
+2017-01-10 00:26:43->iotdmf started
+2017-01-10 00:26:44->start iotc ok, pid:341
+2017-01-10 00:26:45->start iotc2 ok, pid:17274
+2017-01-10 00:26:46->start iotc3 ok, pid:17274
+2017-01-10 00:43:46->iotdmf started
+2017-01-10 00:43:47->start iotc ok, pid:345
+2017-01-10 00:43:48->start iotc2 ok, pid:17274
+2017-01-10 00:43:49->start iotc3 ok, pid:17274
+2017-01-10 00:50:56->iotdmf started
+2017-01-10 00:50:57->start iotc ok, pid:351
+2017-01-10 00:50:58->start iotc2 ok, pid:358
+2017-01-10 00:50:59->start iotc3 ok, pid:367
+2017-01-10 10:36:13->iotdmf started
+2017-01-10 10:36:14->start iotc ok, pid:309
+2017-01-10 10:36:15->start iotc2 ok, pid:348
+2017-01-10 10:36:16->start iotc3 ok, pid:429
+2017-01-10 11:36:23->iotdmf started
+2017-01-10 11:36:24->start iotc ok, pid:1421
+2017-01-10 11:36:25->start iotc2 ok, pid:1428
+2017-01-10 11:36:26->start iotc3 ok, pid:1442
+2017-01-10 11:34:05->iotdmf started
+2017-01-10 11:34:06->start iotc ok, pid:330
+2017-01-10 11:34:07->start iotc2 ok, pid:413
+2017-01-10 11:34:08->start iotc3 ok, pid:427
+2017-01-10 11:46:01->iotdmf started
+2017-01-10 11:46:02->start iotc ok, pid:343
+2017-01-10 11:46:03->start iotc2 ok, pid:376
+2017-01-10 11:46:04->start iotc3 ok, pid:386
+2017-01-10 11:57:47->iotdmf started
+2017-01-10 11:57:48->start iotc ok, pid:357
+2017-01-10 11:57:49->start iotc2 ok, pid:437
+2017-01-10 11:57:50->start iotc3 ok, pid:445
+2017-01-10 21:50:02->iotdmf started
+2017-01-10 21:50:03->start iotc ok, pid:349
+2017-01-10 21:50:05->start iotc2 ok, pid:399
+2017-01-10 21:50:06->start iotc3 ok, pid:437
+2017-01-11 10:37:15->iotdmf started
+2017-01-11 10:37:16->start iotc ok, pid:625
+2017-01-11 10:37:17->start iotc2 ok, pid:632
+2017-01-11 10:37:18->start iotc3 ok, pid:639
+2017-01-11 10:31:15->iotdmf started
+2017-01-11 10:31:16->start iotc ok, pid:317
+2017-01-11 10:31:17->start iotc2 ok, pid:408
+2017-01-11 10:31:18->start iotc3 ok, pid:428
+2017-01-11 14:08:56->iotdmf started
+2017-01-11 14:08:57->start iotc ok, pid:3333
+2017-01-11 14:08:58->start iotc2 ok, pid:3340
+2017-01-11 14:08:59->start iotc3 ok, pid:3347
+2017-01-11 13:37:48->iotdmf started
+2017-01-11 13:37:49->start iotc ok, pid:352
+2017-01-11 13:37:50->start iotc2 ok, pid:359
+2017-01-11 13:37:51->start iotc3 ok, pid:367
+2017-01-11 20:39:18->iotdmf started
+2017-01-11 20:39:19->start iotc ok, pid:330
+2017-01-11 20:39:20->start iotc2 ok, pid:358
+2017-01-11 20:39:21->start iotc3 ok, pid:366
+2017-01-11 22:39:19->iotdmf started
+2017-01-11 22:39:20->start iotc ok, pid:318
+2017-01-11 22:39:21->start iotc2 ok, pid:366
+2017-01-11 22:39:22->start iotc3 ok, pid:447
+2017-01-12 09:29:56->iotdmf started
+2017-01-12 09:29:57->start iotc ok, pid:19660
+2017-01-12 09:29:58->start iotc2 ok, pid:19670
+2017-01-12 09:29:59->start iotc3 ok, pid:19683
+2017-01-12 22:51:46->iotdmf started
+2017-01-12 22:51:47->start iotc ok, pid:329
+2017-01-12 22:51:48->start iotc2 ok, pid:365
+2017-01-12 22:51:49->start iotc3 ok, pid:373
+2017-01-12 23:31:03->iotdmf started
+2017-01-12 23:31:04->start iotc ok, pid:348
+2017-01-12 23:31:05->start iotc2 ok, pid:419
+2017-01-12 23:31:06->start iotc3 ok, pid:437
+2017-01-12 23:42:30->iotdmf started
+2017-01-12 23:42:31->start iotc ok, pid:336
+2017-01-12 23:42:32->start iotc2 ok, pid:346
+2017-01-12 23:42:33->start iotc3 ok, pid:427
+2017-01-16 22:15:14->iotdmf started
+2017-01-16 22:15:15->start iotc ok, pid:321
+2017-01-16 22:15:16->start iotc2 ok, pid:365
+2017-01-16 22:15:17->start iotc3 ok, pid:376
+2017-01-16 22:24:25->iotdmf started
+2017-01-16 22:24:26->start iotc ok, pid:336
+2017-01-16 22:24:27->start iotc2 ok, pid:346
+2017-01-16 22:24:28->start iotc3 ok, pid:428

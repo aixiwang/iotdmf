@@ -1,0 +1,729 @@
+@charset "utf-8";
+
+/*
+----------------------------------------------------------------------
+基本スタイルシート
+更新日：2011/8/12
+
+== 目次 ==============================================================
+BASE
+----------------------------------------------------------------------
+.	globalHeader
+.	container
+..		containerHeader
+...			colorRate
+..		containerInfo
+...			forecast
+...			news
+..		contents
+...			contentsHeader
+...			content
+....			canvas
+....			telop
+....			additional
+...			contentsFooter
+.	globalFooter
+----------------------------------------------------------------------
+<<parts>>
+.	campusSelector
+.	esp
+.	pageNav
+----------------------------------------------------------------------
+<<other>>
+「clearfix」
+======================================================================
+
+/*====================================================================
+/*　=RESET
+---------------------------------------------------------------------- */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,
+summary, time, mark, canvas, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100.01%;
+/ / vertical-align : baseline;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+/*　=BASE
+---------------------------------------------------------------------- */
+body {
+    position: relative;
+/ / margin : 0 auto;
+    margin: 0 auto 0 auto;
+    width: 100%;
+/ / height : 100 %;
+/ / min-height : 100 %;
+/ / height : auto;
+    line-height: 1.0;
+    font-size: 100%;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo", "メイリオ", "ＭＳ Ｐゴシック", "Verdana", "Geneva,Arial", "Helvetica", "sans-serif";
+    color: #666;
+    text-align: left;
+    vertical-align: bottom;
+    word-break: normal;
+    word-wrap: break-word;
+    background-color: #FAFAFA;
+}
+
+h1, h2 {
+    padding: 0px;
+    font-weight: bold;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #069;
+    text-decoration: none;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 1024px;
+    margin: 0px auto 0px auto;
+    padding: 20px auto 20px auto;
+    border-left: solid 0px #ECEFF2;
+    border-right: solid 0px #ECEFF2;
+}
+
+.containerHeader,
+.containerInfo,
+.contents,
+.contentsHeader,
+.content,
+.telop,
+.additional,
+.contentsFooter,
+.globalFooter,
+.campusSelector {
+    clear: both;
+    display: block;
+    margin: 5px auto 0 auto;
+}
+
+/*====================================================================
+/*　.=globalHeader
+---------------------------------------------------------------------- */
+.keyImage {
+    position: relative;
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    padding-bottom: 0px auto 0px auto;
+    border-bottom: 1px solid #ECEFF2;
+}
+
+.keyImage img {
+    display: block;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.flexslider ul {
+    display: block;
+    width: 1000px;
+    height: 215px;
+    margin: 0px auto 0px auto;
+}
+
+.flexslider img {
+    display: block;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+.logo {
+    position: relative;
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 980px;
+    background: transparent;
+}
+
+.logo img {
+    position: relative;
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 980px;
+    background: transparent;
+}
+
+.fiapLogo {
+    position: relative;
+    display: block;
+    margin: 0px auto 4px auto;
+    width: 1000px;
+    background: transparent;
+}
+
+.fiapLogo img {
+    position: relative;
+    display: block;
+    margin: 0px 2px 0px auto;
+    padding: 2px 4px 4px 0px;
+/ / width : 980 px;
+    background: transparent;
+}
+
+/*　.=nagai develop
+---------------------------------------------------------------------- */
+.summary {
+    position: relative;
+    display: block;
+    float: left;
+    margin: auto 7px auto 7px;
+    width: 430px;
+    height: 240px;
+    background: transparent;
+}
+
+/*　.=container
+---------------------------------------------------------------------- */
+/**　.=containerHeader
+---------------------------------------------------------------------- */
+.containerHeader {
+}
+
+.containerHeader h1 {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 150%;
+}
+
+/***　.=colorRate
+---------------------------------------------------------------------- */
+.colorRate {
+    position: relative;
+    float: right;
+}
+
+.colorRate h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0;
+    color: #fff;
+}
+
+.colorRate dl {
+    float: left;
+    margin-top: -5px;
+}
+
+.colorRate h2,
+.colorRate dd {
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.colorRate dd {
+    text-align: center;
+    background-color: #999;
+}
+
+.colorRate dd,
+.colorRate dt {
+    display: block;
+    padding: 0 6px;
+    width: 60px;
+    font-size: 10px;
+}
+
+.colorRate dt {
+    clear: left;
+    height: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.colorRate dl:first-of-type dd,
+.colorRate dl:first-of-type dt {
+    width: 315px;
+    padding-right: 8px;
+}
+
+.colorRate dl dd {
+    padding-right: 8px;
+    text-align: right;
+    font-size: 11px;
+}
+
+.colorRate dl:first-of-type dd {
+    text-align: right;
+}
+
+.colorRate dl:first-of-type dd {
+    background-color: #67BA30;
+}
+
+.colorRate dl:nth-of-type(2) dd {
+    background-color: #FEB34B;
+}
+
+.colorRate dl:last-of-type dd {
+    background-color: #C70309;
+}
+
+.colorRateDemand {
+    position: relative;
+    float: right;
+}
+
+.colorRateDemand h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0;
+    color: #fff;
+}
+
+.colorRateDemand dl {
+    float: left;
+    margin-top: -5px;
+}
+
+.colorRateDemand h2,
+.colorRateDemand dd {
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.colorRateDemand dd {
+    text-align: center;
+    background-color: #999;
+}
+
+.colorRateDemand dd,
+.colorRateDemand dt {
+    display: block;
+    padding: 0 6px;
+    width: 60px;
+    font-size: 10px;
+}
+
+.colorRateDemand dt {
+    clear: left;
+    height: 14px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.colorRateDemand dl:first-of-type dd,
+.colorRateDemand dl:first-of-type dt {
+    width: 315px;
+    padding-right: 8px;
+}
+
+.colorRateDemand dl dd {
+    padding-right: 8px;
+    text-align: right;
+    font-size: 11px;
+}
+
+.colorRateDemand dl:first-of-type dd {
+    text-align: right;
+}
+
+.colorRateDemand dl:first-of-type dd {
+    background-color: #18A557;
+}
+
+.colorRateDemand dl:nth-of-type(2) dd {
+    background-color: #E19D00;
+}
+
+.colorRateDemand dl:last-of-type dd {
+    background-color: #BF2B2F;
+}
+
+/**　.=containerInfo
+---------------------------------------------------------------------- */
+.containerInfo .news {
+    margin-top: 0px;
+}
+
+.news0 .news {
+    display: none;
+}
+
+/***　.=news
+---------------------------------------------------------------------- */
+.news {
+    float: right;
+    width: 470px;
+    height: 130px; /*電気予報エリア（.forecast）の高さと同じ*/
+    text-align: left;
+    overflow: hidden;
+}
+
+/*公式サイト用：.newsよりも上の階層に.officialを設定すること！*/
+.official .news {
+    height: auto;
+    overflow: visible;
+}
+
+.news h1 {
+    padding: 0;
+    height: 18px;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.news p {
+    padding: 3px 0 1em;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.news ul {
+/ / padding-left : 1 em;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #09c;
+    list-style-type: disc;
+}
+
+.news li {
+    padding-top: 6px;
+}
+
+/**　.=contents
+---------------------------------------------------------------------- */
+.contents.main {
+    padding-top: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0px auto 0px auto;
+}
+
+.contents {
+    position: relative;
+    height: 100%;
+    padding-top: 10px;
+}
+
+/***　.=contentsHeader
+---------------------------------------------------------------------- */
+.contentsHeader {
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    border-bottom: 8px solid #b1cdd6;
+}
+
+.contentsHeader h1 {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 10px auto 0px auto;
+/ / padding : auto auto auto 5 px;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    float: left;
+    font-size: 135%;
+}
+
+.contentsHeader {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    float: left;
+    width: 960px;
+}
+
+.contentsHeader dl.pageNav {
+    margin-top: 4px;
+}
+
+/***　.=content
+---------------------------------------------------------------------- */
+.content {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 8px;
+}
+
+.content:first-child {
+    border-top: 0px;
+}
+
+.content:last-child {
+    border-bottom: 8px solid #b1cdd6;
+    padding-bottom: 10px;
+}
+
+.contentChild {
+    clear: both;
+    padding-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 3px solid #b1cdd6;
+}
+
+.contentChild:last-child {
+    padding-bottom: 60px;
+}
+
+/****　.=canvas
+---------------------------------------------------------------------- */
+.canvas {
+    position: relative;
+    width: 950px;
+    height: 200px;
+    margin-top: -5px;
+}
+
+/****　.=telop
+---------------------------------------------------------------------- */
+.telop {
+    position: relative;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.telop li {
+    display: inline;
+    padding: 0 1em;
+    color: #fff;
+}
+
+.telop,
+.telop li {
+    height: 1.5em;
+    min-height: 25px;
+    line-height: 25px;
+}
+
+/****　.=additional
+---------------------------------------------------------------------- */
+.additional {
+    padding-top: 6px;
+}
+
+.additional p {
+    line-height: 1.5;
+    font-size: 75%;
+    letter-spacing: 0.1em;
+}
+
+.esp p {
+    float: left;
+    padding-right: 30px;
+    line-height: 23px;
+    font-size: 75%;
+    background: url("../image/arrow.png") no-repeat 5.2em center;
+}
+
+/*
+.esp p,
+.esp a{
+height:23px;
+}
+.esp a{
+display:inline-block;
+width:108px;
+text-indent:-9999px;
+background:url("../images/brand.png") no-repeat right center;
+overflow:hidden;
+cursor:auto;
+}
+*/
+.lt-ie8 .esp a {
+    display: inline; /* IE8 and older */
+    zoom: 1; /* IE8 and older */
+}
+
+/*　.=pageNav
+---------------------------------------------------------------------- */
+dl.pageNav {
+    float: right;
+    padding: 0 3px;
+    font-size: 80%;
+}
+
+dl.pageNav dt,
+dl.pageNav dd,
+dl.pageNav dd li {
+    float: left;
+    margin: 0 3px;
+}
+
+dl.pageNav dt,
+dl.pageNav dd,
+dl.pageNav dd li,
+dl.pageNav dd li a {
+    height: 2em;
+    line-height: 2em;
+}
+
+dl.pageNav dd li a {
+    display: block;
+    width: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    background-color: #ccc;
+}
+
+dl.pageNav dd li a:hover,
+dl.pageNav dd li.current a {
+    background-color: #a7ccd8;
+}
+
+dl.pageNav dd li.first a,
+dl.pageNav dd li.prev a,
+dl.pageNav dd li.next a,
+dl.pageNav dd li.last a {
+    width: 24px;
+    background-color: transparent;
+}
+
+dl.pageNav dt,
+dl.pageNav dd li.first a,
+dl.pageNav dd li.prev a,
+dl.pageNav dd li.next a,
+dl.pageNav dd li.last a {
+    text-indent: -9999px;
+    background-image: url("../image/pageNav_btn.png");
+    background-repeat: no-repeat;
+}
+
+dl.pageNav dt {
+    background-position: left center;
+    width: 42px;
+}
+
+dl.pageNav dd li.first a {
+    background-position: -42px center;
+}
+
+dl.pageNav dd li.prev a {
+    background-position: -68px center;
+}
+
+dl.pageNav dd li.next a {
+    background-position: -244px center;
+}
+
+dl.pageNav dd li.last a {
+    background-position: right center;
+}
+
+dl.pageNav dd li.first a:hover,
+dl.pageNav dd li.prev a:hover,
+dl.pageNav dd li.next a:hover,
+dl.pageNav dd li.last a:hover {
+    background-image: url("../image/pageNav_btn_hover.png");
+}
+
+/*--- campus ---*/
+dl.pageNav dd li.first a.invalid,
+dl.pageNav dd li.prev a.invalid,
+dl.pageNav dd li.next a.invalid,
+dl.pageNav dd li.last a.invalid {
+    cursor: auto;
+}
+
+dl.pageNav dd li.first a:hover.invalid,
+dl.pageNav dd li.prev a:hover.invalid,
+dl.pageNav dd li.next a:hover.invalid,
+dl.pageNav dd li.last a:hover.invalid {
+    background-image: url("../image/pageNav_btn.png");
+}
+
+/*====================================================================
+/*　=「clearfix」
+---------------------------------------------------------------------- */
+.keyImage:after,
+.containerHeader:after,
+.containerInfo:after,
+.campusSelector:after,
+.contentsHeader:after,
+.canvas:after,
+.contentsFooter:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+mainArea {
+    position: relative;
+    height: 100%;
+}
+
+div_main {
+    position: relative;
+    height: 100%;
+}
+
+.contentsHeaderDemand {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    margin-right: 0px;
+    width: 1000px;
+}
+
+.contentsHeaderDemand h1 {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo", "メイリオ", "ＭＳ Ｐゴシック", "Verdana,Geneva,Arial", "Helvetica", "sans-serif";
+    margin: 10px auto 0px auto;
+/ / padding : auto auto auto 5 px;
+    padding-left: 8px;
+    padding-bottom: 2px;
+    float: left;
+    font-size: 135%;
+}
+
+/*end*/

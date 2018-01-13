@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>IOTDMF</title>
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css" >
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap/assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <script src="js/jquery-1.11.2.min.js"></script>   
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">物联网数据管理框架</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right" id="nav1">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar" id="nav2">
+          </ul>
+        </div>
+<!----------------------------------分界 -------------------------------------->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">电流数据页面</h1>
+
+<a href="power.html"><span class="label label-default" >查看1小时电流数据图</span><a>   
+<a href="power2.html"><span class="label label-default">查看24小时电流数据图</span><a>
+<a href="power2.html"><span class="label label-primary">查看1周电流数据图</span><a>
+
+<div id="main_1week" style="height: 500px; border: 1px solid rgb(204, 204, 204); padding: 10px; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; cursor: default; background-color: rgba(0, 0, 0, 0);" _echarts_instance_="1423132220625"><div style="position: relative; overflow: hidden; width: 1692px; height: 500px;"><div data-zr-dom-id="bg" style="position: absolute; left: 0px; top: 0px; width: 1692px; height: 500px; -webkit-user-select: none;"></div><canvas width="1861" height="550" data-zr-dom-id="0" style="position: absolute; left: 0px; top: 0px; width: 1692px; height: 500px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="1861" height="550" data-zr-dom-id="1" style="position: absolute; left: 0px; top: 0px; width: 1692px; height: 500px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="1861" height="550" data-zr-dom-id="_zrender_hover_" style="position: absolute; left: 0px; top: 0px; width: 1692px; height: 500px; -webkit-user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><div class="echarts-dataview" style="position: absolute; display: block; overflow: hidden; transition: height 0.8s, background-color 1s; -webkit-transition: height 0.8s, background-color 1s; z-index: 1; left: 0px; top: 0px; width: 1692px; height: 0px; background-color: rgb(240, 255, 255);"></div><div class="echarts-tooltip" style="position: absolute; display: block; border: 0px solid rgb(51, 51, 51); white-space: nowrap; transition: left 0.4s, top 0.4s; -webkit-transition: left 0.4s, top 0.4s; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; color: rgb(255, 255, 255); padding: 5px; left: 793px; top: 385px; background-color: rgba(0, 0, 0, 0.701961);"></div></div></div>
+<br>
+
+<script src="js/echarts.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/chart_main_power_1week.js"></script> 
+<script type="text/javascript">var timeTicket;</script>
+<br><br>
+
+
+
+</div>   
+<!----------------------------------分界 -------------------------------------->
+   
+   
+      </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script>
+        s = get_menu();
+        $("#nav1").html(s);
+        $("#nav2").html(s);     
+    </script>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="bootstrap/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

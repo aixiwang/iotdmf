@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.campusSelector {
+postion:relative;
+font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo","メイリオ","ＭＳ Ｐゴシック","Verdana,Geneva,Arial","Helvetica","sans-serif";
+padding-bottom:40px;
+padding-top:20px;
+}
+.campusSelectorBack {
+postion:relative;
+font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo","メイリオ","ＭＳ Ｐゴシック","Verdana,Geneva,Arial","Helvetica","sans-serif";
+padding-bottom:10px;
+margin-bottom:10px;
+}
+
+.campusSelector ul{
+display:table;
+padding:0 0.25em;
+width:980px;
+}
+.campusSelectorBack ul{
+display:block;
+padding:0 0.25em;
+width:1000px;
+}
+.campusSelector li{
+width:160px;
+display:table-cell;
+font-size: 12px;
+}
+.campusSelectorBack li{
+display:block;
+float:right;
+font-size: 10px;
+}
+.lt-ie8 .campusSelector li{
+display:table-cell;/* IE8 and older */
+zoom:1;/* IE8 and older */ 
+}
+.campusSelector li a{
+width:160px;
+padding:0 0.5em 0 0.25em;
+color:#6F6F6F;
+font-size:14px;
+text-align:center;
+text-decoration: none;
+}
+.campusSelectorBack li a{
+padding:0px 5px 0px 0px;
+color:#6F6F6F;
+font-size:14px;
+line-height:22px;
+text-decoration: none;
+}
+.campusSelector li.current a{
+width:160px;
+padding: 5px 5px 5px 5px;
+border-color: #58B8A7;
+border-style: solid ; 
+border-width: 1px; 
+border-radius: 5px;
+text-decoration: none;
+color:#58B8A7;
+font-size:12px;
+font-weight:bold;
+}
+/*--- campus ---*/
+.campusSelector .campus li{
+height:30px;
+line-height:30px;
+font-size:85%;
+}
+.campusSelector .campus li:first-child.current a{
+color:#09c;
+}
+/*--- area ---*/
+.campusSelector .area{
+padding:6px 0.25em;
+margin-left:7px;
+margin-right:7px;
+}
+.campusSelector .area li{
+height:20px;
+line-height:20px;
+font-size:75%;
+}
+/*end*/

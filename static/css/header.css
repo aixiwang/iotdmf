@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+.globalHeaderArea{
+position:relative;
+display:block;
+width: 100%;
+height: 58px;
+margin:0 auto 0 auto;
+border-bottom:1px solid #999;
+background-color: #7b7b7b;
+background-size:100% 100px;
+border-bottom:#f9be00 8px solid;
+}
+.globalHeaderLow{
+position:relative;
+width:100%;
+height:8px;
+margin:0 auto 0 auto;
+background:url("/include/images/WOODPINSTRIPE_TOP002.png") repeat-x ;
+}
+.globalHeaderNavigation{
+position:relative;
+display:block;
+width:100%;
+height:30px;
+margin:0 auto 0px auto;
+background:url("/include/images/Main_menu_back001.png") repeat-x ;
+background-size:auto 30px;
+}
+div.globalHeader{
+position:relative;
+display:block;
+margin:0 auto 0 auto;
+width:1024px;
+height:54px;
+}
+.globalIcon{
+position:relative;
+display:block;
+float:left;
+padding-top:2px;
+width:50px;
+height:100%;
+background:url("../images/TUED_010.png") 100% no-repeat;
+}
+.globalTitle {
+position:relative;
+display:inline-block;
+float:left;
+line-height:40px;
+width:420px;
+padding-left:10px;
+padding-top:18px;
+font-weight:normal;
+font-size:24px;
+color:#FFFFFF;
+}
+.globalGutpLogo{
+position:relative;
+display:block;
+float:left;
+width:110px;
+margin-left:140px;
+height:100%;
+background:url("../images/gutpglobal.png") no-repeat;
+}
+.globalClock{
+position:relative;
+display:block;
+float:left;
+margin-left:10px;
+margin-top:38px;
+width:165px;
+line-height:100%;
+font-weight:bold;
+font-size:14px;
+color:#DBDBEA;
+}
+.globalLogout{
+position:relative;
+display:block;
+float:left;
+margin-top:10px;
+margin-left:6px;
+width:110px;
+height:49px;
+}
+
+.globalHeader p{
+font-weight: bold;
+width:1024px;
+}
+
+div.globalHeader #brand{
+left: 670px;
+bottom: 2px;
+width:300px;
+height:45px;
+position: absolute;
+}
+
+.globalHeader #logout{
+bottom : 2px;
+left: 920px;
+width:150px;
+height:45px;
+position: absolute;
+}
+.graphSelector {
+position: relative;
+display:block;
+margin:0px auto 4px auto;
+width:1024px;
+height:40px;
+padding-bottom:20px;
+border-bottom:1px solid #666666;
+background: transparent;
+}
+.graphSelector ul{
+position: relative;
+display:block;
+float:left;
+margin-top:20px;
+margin-left:20px;
+width:780px;;
+line-height:40px;
+background: transparent;
+}
+.graphSelector li.normal{
+position: relative;
+display:inline-block;
+float:left;
+text-align:center;
+line-height:22px;
+margin:10px 4px;
+padding:0px 20px;
+font-size:16px;
+background: transparent;
+color:#526C8A;
+font-weight:bold;
+}
+.graphSelector li.current{
+position: relative;
+display:inline-block;
+float:left;
+line-height:22px;
+text-align:center;
+margin:6px 10px;
+padding:0px 10px;
+border:3px #BFCFEF solid;
+border-radius:5px;
+font-size:16px;
+color:#526C8A;
+background: transparent;
+font-weight:bold;
+}
+
+.graphSelector a{
+color:#526C8A;
+text-decoration:none; 
+}
+.graphSelector a:visited{
+color:#526C8A;
+text-decoration:none; 
+}
+.graphSelector p{
+position: relative;
+display:block;
+float:left;
+width:210px;
+line-height:22px;
+text-align:right;
+margin-top:32px;
+margin-left:0px;
+margin-right:10px;
+font-size:16px;
+color:#526C8A;
+background: transparent;
+font-weight:bold;
+}
+
+/*end*/

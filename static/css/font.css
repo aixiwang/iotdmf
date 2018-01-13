@@ -1,0 +1,57 @@
+@charset "utf-8";
+.f_8{
+font-size: 8px;
+}
+.f_9{
+font-size: 9px;
+}
+.f_10{
+font-size: 10px;
+}
+
+.f_12{
+font-size: 12px;
+}
+.f_13{
+font-size: 13px;
+}
+.f_14{
+font-size: 14px;
+}
+.f_15{
+font-size: 15px;
+}
+.f_18{
+font-size: 18px;
+}
+.f_20{
+font-size: 20px;
+}
+.f_21{
+font-size: 21px;
+}
+.f_24{
+font-size: 24px;
+}
+.f_26{
+font-size: 26px;
+}
+.f_32{
+font-size: 32px;
+}
+.f_34{
+font-size: 34px;
+}
+.f_46{
+font-size: 46px;
+}
+.f_w_n{
+font-weight: normal;
+}
+.f_w_b{
+font-weight: bold;
+}
+.f_c_w{
+color:#FFFFFF;
+}
+/*end*/
